@@ -1,0 +1,14 @@
+grades = [85, 92, 76, 88, 90, 67, 95, 80]
+
+print("List of Grades:", grades)
+print("Type of grades variable:", type(grades))
+print("Number of students:", len(grades))
+print("Highest Grade:", max(grades))
+print("Lowest Grade:", min(grades))
+print("Grades in Ascending Order:", sorted(grades))
+print("Grades in Descending Order:", sorted(grades, reverse=True))
+print("Grades in Reverse Order:", list(reversed(grades)))
+
+print("Student Grades using Range:")
+for i in range(len(grades)):
+    print(f"Student {i+1} Grade: {grades[i]}")
